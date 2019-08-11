@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My personal site</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+
+  <!--  Overriding some styles from index.scss-->
+  <style>
+    body{
+      
+    }
+    h2,p,h3,h4{
+      text-align:left;
+    }
+    h3,h4,li,p{
+      margin-right:1em;
+    }
+    .page{
+      justify-content:start;
+    }
+    .content{
+      margin-left:130px;
+    }
+    #sidenav{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100px;
+        height:100%;
+        padding-left:10px;
+        padding-top:110px;
+        margin-bottom:-50px;
+        border-right:solid;
+        background-color:#aaaaaa;
+        overflow-y:auto;
+        overflow-x:auto;
+        z-index:1;
+    }
+    #sidenav li{
+      list-style:none;
+      margin-top:10px;
+    }
+    #sidenav a{
+      color:black;
+    }
+    #sidenav a:hover{
+      color:brown;
+    }
+    .anchor-link{
+      position:relative;
+      bottom:100px;
+    }
+    @media(max-width:500px){
+      body{
+         overflow-x:visible;
+      }
+    }
+  </style>
+  
+</head>
+  
+<body>
+  <nav class="nav" id="navbar">
+    <ul>
+      <li><a class= "nav-link" href="index.html#welcome-section">About</a></li>
+      <li><a class= "nav-link" href="index.html#Portfolio">Portfolio</a></li>
+      <li><a class= "nav-link" href="index.html#Contact">Contact</a></li>
+      <li><a class= "nav-link" href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+  <div id="header-bot-border"> </div>
+  
+  <nav id=sidenav>
+    <li><a href="#Academic">Academic</a></li>
+    <li><a href="#Work-history">Work history</a></li>
+    <li><a href="#Experience">Experience</a></li>
+    <li><a href="#Misc">Misc</a></li>
+  </nav>
+  
+  <article class="container">  
+    <section id="resume" class="page" style="background-color:#202020;color:white;">
+      <div class="content">
+      <div id="Academic" class="anchor-link"></div>
+      <h2><u>\\ Academic:</u></h2>
+        <h3>B.S. in Computer Science</h3>
+          <h4>George Mason University,Virginia</h4>
+            <p>Some of Computer Science topics studied: </p>
+              <li>Operating System</li>
+              <li>Distributed System</li>
+              <li>Database Concept</li>
+              <li>Data Mining</li>
+            <p>For a complete list of studied topics, please click <a href="list_of_studied_topics.html">here</a></p>
+      
+      <div id="Work-history" class="anchor-link"></div>
+      <h2><u>\\ Work history:</u></h2>
+        <h3>eDiscovery Analyst, Krolldiscovery</h3>
+          <h4>May 2016 – August 2018</h4>
+            <li>Process, analyze and modify electronic data.</li>
+            <li>Convert various data format to specified images format for document reviews.</li>
+            <li>Consolidate images into specified format for reviews.</li>
+            <li>Extract text from documents and images using Optical Character Recognition tool. </li>
+            <li>Manipulate data records using SQL, Excel, Relativity, Batch.</li>
+            <li>Develop scripts to ease some tasks.</li>
+            <li>Provide software's performance feedback to software developers.</li>
+      <br>  
+      <h3>Intern,Stilwell Technology and Robotic LLC</h3>
+          <h4>June – August 2015</h4>
+            <li>Developing and Design game structures.</li>
+			      <li>Program game functions using C# within Unity Game Engine.</li>
+      <br>  
+      <h3>United States Marine Corp</h3>
+          <h4>September 2008 – September 2012</h4>
+
+      <div id="Experience" class="anchor-link"></div>
+      <h2><u>\\ Experience:</u></h2>
+        <h4>Programming Languages used:</h4>
+          <li>C, C#, Java</li>
+          <li>Python</li>
+          <li>Html</li>
+          <li>SQL</li>
+      
+      <div id="Misc" class="anchor-link"></div>
+      <h2><u>\\ Misc:</u></h2>
+        <a style="align-self:center;color:white;" href="https://www.freecodecamp.org/tedo" target="_blank" id="profile-link"><i class="fa fa-free-code-camp" > FreeCodeCamp</i></a>
+      </div>
+    </section>
+  </article>
+
+  <div class="footer">
+    <p>&copy Copyright, D.P.</p>
+  </div>
+</body>
+</html>

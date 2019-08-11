@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My personal site</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+
+<!--  Overriding some styles from index.scss-->
+  <style>
+    .page{
+      justify-content:start;
+    }
+    h1{
+      font-size:1.2em;
+      text-align:left;
+    }
+    p{
+      margin-top:0;
+      margin-left:2em;
+      text-align:left;
+      font-size:0.9em;
+    }
+    .content{
+      margin:2em;
+    }
+    @media(max-width: 500px){
+      p,h1{
+      font-size:80%;
+      }
+    }
+  </style>
+ 
+  
+</head>
+  
+<body>
+  <nav class="nav" id="navbar">
+    <ul>
+      <li><a class= "nav-link" href="index.html#welcome-section">About</a></li>
+      <li><a class= "nav-link" href="index.html#Portfolio">Portfolio</a></li>
+      <li><a class= "nav-link" href="index.html#Contact">Contact</a></li>
+      <li><a class= "nav-link" href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+  <div id="header-bot-border"> </div>
+  
+  <article class="container">  
+    <section id="resume" class="page" style="background-color:#202020;color:white;">
+      <div class="content">
+        <h1>Object-Oriented Programming</h1>
+        <h1>Low-Level Programming: C</h1>
+        <h1>Data Structures</h1>
+        <h1>Software Engineering</h1>
+        <h1>Formal Methods & Models</h1>
+        <h1>Computer Systems & Programming</h1>
+        <p>Topics include data representation, assembly and machine-level representation of high-level language programs, the memory hierarchy, linking, exceptions, interrupts, processes and signals, virtual memory, and system-level I/O</p>
+        <h1>Computer Systems Architecture</h1>
+        <p>Computer subsystems and instruction set architectures. Single-cycle, multiple-cycle, and pipeline architectures. Memory hierarchy, cache, and virtual memory input-output processing</p>
+        <h1>Analysis of Algorithms</h1>
+        <h1>Digital Electronics</h1>
+        <h1>Concurrent & Distributed Systems</h1>
+        <p>Practical issues in designing and implementing concurrent and distributed software. Topics include concurrent programming, synchronization, multithreading, local and wide-area network protocols, distributed computation, systems integration, and techniques for expressing coarsegrained parallelism at the application level</p>
+        <h1>Database Concepts</h1>
+        <p>Topics include the Entity-Relationship (ER) and Entity-Enhanced Relationship (EER) models for database design, Relational Algebra (RA), Structured Query Language (SQL), SQL programming techniques</p>
+        <h1>Operating Systems</h1>
+        <p>Covers concurrent processes and synchronization mechanisms; processor scheduling; memory, file, I/O, and deadlock management; performance of operating systems; and projects dealing with synchronization in multiprogrammed OS and virtual memory management</p>
+        <h1>Data Mining</h1>
+        <p>Basic principles and methods for data analysis, knowledge discovery, modeling, prediction and performance evaluation.</p>
+        <h1>Cryptography</h1>  
+      </div>
+    </section>
+  </article>
+
+  <div class="footer">
+    <p>&copy Copyright, D.P.</p>
+  </div>
+</body>
+</html>
