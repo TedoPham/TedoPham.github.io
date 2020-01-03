@@ -1,60 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <!--  Meta  -->
   <meta charset="UTF-8" />
-  <title>My personal site</title>
-  
+  <title>Du Pham site</title>
+
   <!--  Styles  -->
   <link rel="stylesheet" href="styles/index.processed.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-  
+
 <body>
     <nav class="nav" id="navbar">
+    <div>
+		<h2 >Du Pham</h2>
+    </div>
       <ul>
         <li><a class= "nav-link" href="#welcome-section">About</a></li>
-        <li><a class= "nav-link" href="#Portfolio">Portfolio</a></li>
+        <!-- <li><a class= "nav-link" href="#Portfolio">Practice Work</a></li> -->
         <li><a class= "nav-link" href="#Contact">Contact</a></li>
         <li><a class= "nav-link" href="resume.html">Resume</a></li>
       </ul>
     </nav>
   <div id="header-bot-border"> </div>
-  
+
   <article class="container">
     <section class="page" style="background-color:#202020;color:#d0d0d0;">
       <div id="welcome-section" class="anchor-target"> </div>
-      <h1>Welcome, my name is Du</h1>
-      <p>A computer science student at George Mason University</p>
+      <h1>Welcome</h1>
+      <div style="display:flex; justify-content:center; padding: 20px;">
+		  <div style="max-width:900px;">
+			<p style="text-align:left">Du graduated from George Mason University with a Bachelor in Computer Science. He took his first programming class as a junior in highschool. Enjoyed working and solving problems with computer and math, he knew his career would be in the computing field. Du's curriculum covers a broad range of topics and would make a great addition to any team.</p>
+		  </div>
+	  </div>
     </section>
-    
+<!--
     <section class="page" style="background-color:#a0a0a0;z-index:999;">
       <div id="Portfolio" class="anchor-target"> </div>
-      <h1>Some of the stuff I worked on</h1>
+      <h1>Practice Work</h1>
       <div class="project-grid" id="projects">
         <div class="project-tile" id="project">
             <h2>HTML;Webpage:</h2>
-            <a href="https://codepen.io/Tedo/full/dxoJeq" target="_blank"><h3>Tribute Page</h3></a> 
             <a href="https://codepen.io/Tedo/full/EqjqJQ" target="_blank"><h3>Survey Form</h2></a>
             <a href="https://codepen.io/Tedo/full/ZgOKQG" target="_blank"><h3>Product Page</h3></a>
-            <a href="https://codepen.io/Tedo/full/GVjmdX" target="_blank"><h3>Technical Documentation</h3></a> 
-        </div>      
+            <a href="https://codepen.io/Tedo/full/GVjmdX" target="_blank"><h3>Technical Documentation</h3></a>
+        </div>
         <div class="project-tile" id="project">
             <h2>Python; Data mining:</h2>
-            <a href="https://github.com/TedoPham/CS484_Data_mining/blob/master/Hw1_movie_review_classification/cs484_hw1.pdf" target="_blank"><h3>Movie reviews classification</h3></a> 
+            <a href="https://github.com/TedoPham/CS484_Data_mining/blob/master/Hw1_movie_review_classification/cs484_hw1.pdf" target="_blank"><h3>Movie reviews classification</h3></a>
             <a href="https://github.com/TedoPham/CS484_Data_mining/blob/master/Hw2_forest_type_classification/cs484_hw2.pdf" target="_blank"><h3>Forest type classification</h2></a>
             <a href="https://github.com/TedoPham/CS484_Data_mining/blob/master/Hw3_Image_clustering/Data%20Mining%20Grader.pdf" target="_blank"><h3>Handwritten digit image clustering</h3></a>
         </div>
-          
+
       </div>
     </section>
-  
+-->
+
     <section class="page" id="Contact" style="background-color:#202020;color:white;">
       <div id="Contact" class="anchor-target"> </div>
       <h2>Contact:</h2>
-      <p>duqpham@gmail.com</p>
-      
+      <p>Please contact me through my email at duqpham@gmail.com or send me a message using the form below</p>
+	  <iframe class="page" id="#google_contact_form" src="./google_contact_form.html" width="400" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </section>
   </article>
 
@@ -63,3 +70,4 @@
   </div>
 </body>
 </html>
+
